@@ -6,7 +6,9 @@
 #### Sources of Data:
 -	Kaggle - US Pollution Data - https://www.kaggle.com/sogun3/uspollution -  (2000-2016) CSV 
 -	OECD - Air Emmisions by Source - https://stats.oecd.org/index.aspx?lang=en - (2000-2016) CSV
-	
+
+#### Google Drive: Resources folder
+	-	https://drive.google.com/drive/folders/1P55m1IX6U7vmT2oF6twnk8h5u4HjFekH?usp=sharing
 
 	
 #### Transformation:
