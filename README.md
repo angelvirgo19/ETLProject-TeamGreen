@@ -6,7 +6,7 @@ Members: Harini Rao, Margeaux Jensen, Neelam Baxi, Zen Acar
 Sources of Data:
 	Kaggle - US Pollution Data (2000-2016) - CSV - https://www.kaggle.com/sogun3/uspollution
 	OECD - https://stats.oecd.org/index.aspx?lang=en - (2000-2016) CSV
-	Data.gov - JSON - https://catalog.data.gov/dataset/air-quality-ef520/resource/4b7894f5-8eb0-46c9-8337-771d9dd49bae
+	
 
 	
 Transformation:
@@ -20,3 +20,5 @@ US Pollution Data Cleaning:
 -	Aggregate the Mean columns and separate by year( columns) and pollutants (rows)
 
 Final Production Database: Relational Database - PostgreSQL
+
+
