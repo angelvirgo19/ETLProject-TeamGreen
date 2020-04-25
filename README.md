@@ -12,9 +12,11 @@
 	
 #### Transformation:
 -	Air Emmisions by Source Dataset Cleaning:
-	-	Separated Year columns in 16 columns adding Pollutants in rows
-	-	Changed the Pollutants names to match with US Pollution data
-	-	Removed the country column, Pollutant, VAR, Variable, Year, Unit Code, PowerCode Code, PowerCode,   Reference Period 			Code, Reference Period, Flag Codes, Flags
+	-	Removed the columns for Country, COU, Pollutant, VAR, Variable, YEA, Unit Code, PowerCode Code, PowerCode, Reference 			Period Code, Reference Period, Flag Codes, and Flags. 
+	-	Dropped rows that have data for other pollutants. We were only focusing on the yearly values for Nitrogen Dioxide, 			Sulphur Dioxide, and Carbon Monoxide.
+	-	Renamed the pollutants so that it matched our other dataset. 
+	-	Separated the data into 3 dataframes and wrote them each to a CSV based on pollutant. 
+
 
 -	US Pollution Data Cleaning:
 	-	Removed State Code, County Code, Site Num, Address, County, City, O3 Units, O3 Mean, O3 1st Max Value, O3 1st Max Hour, 		O3 AQI, NO2 1st Max Value, NO2 1st Max Hour, NO2 AQI,SO2 1st Max Value, SO2 1st Max Hour, SO2 AQI, CO 1st Max Value, CO 		1st Max Hour, CO AQI
