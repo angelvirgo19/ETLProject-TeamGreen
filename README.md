@@ -24,8 +24,8 @@ Final Production Database: Relational Database - PostgreSQL
 The final tables used in the production database.
 - clean_pollution_db
 - clean_air_emission_co
--clean_air_emission_so2
--clean_air_emission_no2
+- clean_air_emission_so2
+- clean_air_emission_no2
 
 
 
