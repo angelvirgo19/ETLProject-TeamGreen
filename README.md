@@ -13,9 +13,9 @@
 #### Transformation:
 -	Air Emmisions by Source Dataset Cleaning:
 	-	Removed the columns for Country, COU, Pollutant, YEA, Unit Code, PowerCode Code, PowerCode, Reference 			Period Code, Reference Period, Flag Codes, and Flags. 
-	-	Dropped rows that have data for other pollutants. We were only focusing on the yearly values for Nitrogen Dioxide, 			Sulphur Dioxide, and Carbon Monoxide.
-	-	Renamed the pollutants so that it matched our other dataset. We also changed the name for "VAR" and "Variable" columns to "pol_var" and "pol_variable". 
-	-	Then, we separated the data into 3 dataframes based on pollutant, and wrote them each to a CSV file. 
+	-	Dropped rows that had data for other pollutants. We were only focusing on the yearly values for Nitrogen Dioxide, 			Sulphur Dioxide, and Carbon Monoxide.
+	-	Renamed the pollutants so that they matched our other dataset. We also changed the name for "VAR" and "Variable" columns to "pol_var" and "pol_variable". 
+	-	Then, we separated the data into 3 dataframes, based on pollutant, and wrote them each to a CSV file. 
 
 
 -	US Pollution Data Cleaning:
