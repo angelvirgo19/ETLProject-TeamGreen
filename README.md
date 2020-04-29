@@ -9,6 +9,8 @@
 
 #### Google Drive: Resources folder- https://drive.google.com/drive/folders/1P55m1IX6U7vmT2oF6twnk8h5u4HjFekH?usp=sharing
 
+#### Note: All our files (source files, new csvs, presentation, technical report, Schemas, are uploaded to Google Drive, as we had 			issues loading files to Github (ran out of space as datasets were too large).
+
 	
 #### Transformation:
 -	Air Emmisions by Source Dataset Cleaning:
@@ -26,10 +28,12 @@
 #### Final Production Database: Relational Database - PostgreSQL
 
 #### The final tables used in the production database:
-- 	clean_pollution_db
-- 	clean_air_emission_co
-- 	clean_air_emission_so2
-- 	clean_air_emission_no2
+	mod_mean_us_pollution
+	mod_pollution_year_city
+	mod_pollution_year_state
+	mod_cleaned_air_emission_by_source_co
+	mod_cleaned_air_emission_by_source_no2
+	mod_cleaned_air_emission_by_source_so2
 
 
 
